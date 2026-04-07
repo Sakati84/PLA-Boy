@@ -1,0 +1,16 @@
+{
+  "name": "Playdate.MagnetVectors.Runtime",
+  "rootNamespace": "Playdate.MagnetVectors",
+  "references": [
+    "Unity.InputSystem"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

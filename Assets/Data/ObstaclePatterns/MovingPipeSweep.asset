@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4ea2aecd1428340b9631bc0811aa22, type: 3}
+  m_Name: MovingPipeSweep
+  m_EditorClassIdentifier: Assembly-CSharp::Playdate.Gameplay.ObstaclePatternDefinition
+  weight: 0.8
+  minDifficulty: 0.25
+  maxDifficulty: 1
+  spawnYRange: {x: -1.7, y: 1.7}
+  gapRange: {x: 3.8, y: 4.7}
+  spawnIntervalMultiplier: 1.1
+  elements:
+  - prefab: {fileID: 261821381903504564, guid: d1ffc91527540c24b80d2887f65a5d30, type: 3}
+    localOffset: {x: 0, y: 3.5, z: 0}
+    localRotation: {x: 0, y: 0, z: 0}
+    randomZRotationRange: {x: -8, y: 8}
+    localScale: {x: 1.65, y: 6.8, z: 1.65}
+    gapOffsetFactor: 1
+    fitGapHeight: 0
+    gapHeightPadding: 0.25
+    causesCollision: 1
+    enableMotion: 1
+    motionAxis: {x: 0, y: 1, z: 0}
+    motionAmplitude: 0.95
+    motionFrequency: 0.38
+    motionPhaseOffset: 0
+    enableWind: 0
+    windAcceleration: 0
+    useColorOverride: 0
+    colorOverride: {r: 1, g: 1, b: 1, a: 1}
+  - prefab: {fileID: 261821381903504564, guid: d1ffc91527540c24b80d2887f65a5d30, type: 3}
+    localOffset: {x: 0, y: -3.5, z: 0}
+    localRotation: {x: 0, y: 0, z: 0}
+    randomZRotationRange: {x: -8, y: 8}
+    localScale: {x: 1.65, y: 6.8, z: 1.65}
+    gapOffsetFactor: -1
+    fitGapHeight: 0
+    gapHeightPadding: 0.25
+    causesCollision: 1
+    enableMotion: 1
+    motionAxis: {x: 0, y: 1, z: 0}
+    motionAmplitude: 0.95
+    motionFrequency: 0.38
+    motionPhaseOffset: 1.3
+    enableWind: 0
+    windAcceleration: 0
+    useColorOverride: 0
+    colorOverride: {r: 1, g: 1, b: 1, a: 1}

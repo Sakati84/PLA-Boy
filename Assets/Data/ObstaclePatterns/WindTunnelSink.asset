@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4ea2aecd1428340b9631bc0811aa22, type: 3}
+  m_Name: WindTunnelSink
+  m_EditorClassIdentifier: Assembly-CSharp::Playdate.Gameplay.ObstaclePatternDefinition
+  weight: 0.5
+  minDifficulty: 0.35
+  maxDifficulty: 1
+  spawnYRange: {x: 0, y: 0}
+  gapRange: {x: 0, y: 0}
+  spawnIntervalMultiplier: 1.35
+  elements:
+  - prefab: {fileID: 9211144921641844039, guid: fb9c8d0feb27e5847aacabc45d6ad2d8, type: 3}
+    localOffset: {x: 0, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0}
+    randomZRotationRange: {x: 0, y: 0}
+    localScale: {x: 2.6, y: 8.4, z: 1.3}
+    gapOffsetFactor: 0
+    fitGapHeight: 0
+    gapHeightPadding: 0
+    causesCollision: 0
+    enableMotion: 0
+    motionAxis: {x: 0, y: 1, z: 0}
+    motionAmplitude: 1
+    motionFrequency: 0.5
+    motionPhaseOffset: 0
+    enableWind: 1
+    windAcceleration: -6.5
+    useColorOverride: 1
+    colorOverride: {r: 1, g: 0.72, b: 0.4, a: 1}
